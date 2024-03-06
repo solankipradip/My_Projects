@@ -1,0 +1,52 @@
+@media (max-width:993px){
+    /* header{
+        width: 100vw;
+        background-image: url("/img/hero-line-bg.png"),url('/img/bg-1\ 1.png');
+        background-position: center,center;
+        background-size: cover,contain;
+        background-repeat: no-repeat,no-repeat;
+    
+    } */
+    nav{
+        background: #3c596e;
+    }
+    .about-section i{
+        padding: 14px;
+        border-radius: 50%;
+        color: #000;
+    
+    }
+
+    footer .footer-content div{
+        width: 45%;
+        margin: 30px auto;
+    }
+    
+    
+}
+
+@media (max-width:500px){
+
+    footer ul{
+        list-style: none;
+        
+    }
+    footer .footer-content div{
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+        position: relative;
+    }
+
+    footer .footer-content div:not(.form-text):after{
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+
+        transform: translateX(-50%);
+        height: 1px;
+        width: 40%;
+        background-color: white;
+    }
+}
